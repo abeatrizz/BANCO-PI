@@ -1,17 +1,20 @@
-# Repositório – Scripts SQL: Projeto Integrador | Salão de Beleza (Senac - 2024.2)
+# 💇‍♂️ Gestão de Dados: Projeto Integrador - Salão de Beleza (Senac 2024.2)
 
-Este repositório foi criado para armazenar os scripts SQL desenvolvidos no contexto do **Projeto Integrador (PI)** do curso do **Senac**, no semestre **2024.2**.
+### 📋 Visão Geral do Produto
+Este repositório contém a arquitetura de dados desenvolvida para um sistema de gestão de salões de beleza. Como gestora, o foco deste projeto foi modelar uma estrutura de banco de dados robusta que suporte as operações do dia a dia, garantindo a integridade das informações e permitindo futuras análises de métricas de negócio.
 
-O projeto tem como foco a modelagem e implementação de um banco de dados para um sistema de **gestão de salão de beleza**.
+### ✨ Estrutura e Lógica de Dados
+* **Modelagem DDL (Data Definition Language)**: Criação e estruturação das tabelas e relacionamentos, garantindo que as regras de negócio (como chaves primárias e estrangeiras) sejam respeitadas.
+* **Manipulação DML (Data Manipulation Language)**: Scripts para inserção e gestão de dados, simulando o uso real do sistema e populando o banco para testes de funcionalidade.
+* **Documentação de Processos**: Registro organizado de toda a evolução do banco de dados para facilitar a colaboração em equipe.
 
-## Conteúdo do Repositório
+### 🛠️ Tecnologias
+* **SQL**: Linguagem padrão para gestão e consulta de dados relacionais.
+* **Git**: Controle de versão para acompanhar cada iteração da modelagem.
 
-- **DDL (Data Definition Language):**  
-  Scripts responsáveis pela criação das tabelas, relacionamentos, chaves primárias e estrangeiras.
+### 🚀 Como Executar os Scripts
+Para replicar a estrutura deste banco de dados localmente:
 
-- **DML (Data Manipulation Language):**  
-  Scripts de inserção e manipulação de dados (INSERT, UPDATE, DELETE), utilizados para popular o banco com dados de exemplo.
-
-## Objetivo
-
-Registrar e organizar os scripts utilizados no desenvolvimento do banco de dados, documentando o progresso e a prática com SQL em um contexto realista de aplicação.
+1. **Clonagem do Repositório**: Baixe os arquivos do projeto para o seu computador.
+   ```bash
+   git clone https://github.com/abeatrizz/BANCO-PI.git
