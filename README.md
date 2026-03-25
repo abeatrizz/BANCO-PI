@@ -18,3 +18,5 @@ Para replicar a estrutura deste banco de dados localmente:
 1. **Clonagem do Repositório**: Baixe os arquivos do projeto para o seu computador.
    ```bash
    git clone https://github.com/abeatrizz/BANCO-PI.git
+2. **Execução do DDL**: Importe os scripts de criação no seu sistema de banco de dados (MySQL, PostgreSQL, etc.) para gerar as tabelas.
+3. **População de Dados (DML)**: Execute os scripts de inserção para testar a lógica com dados de exemplo.
